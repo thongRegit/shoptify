@@ -25,9 +25,9 @@
 
     {%- form 'recover_customer_password' -%}
       {% assign recover_success = form.posted_successfully? %}
-              <label for="RecoverEmail">
+      <label for="RecoverEmail">
           {{ 'customer.login_page.email' | t }}
-        </label>
+      </label>
       <div class="field">
         <input
           type="email"
